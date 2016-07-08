@@ -7,7 +7,7 @@ title: itnote
 subtitle: 成功唯有积累
 description: stark
 author: stark wang
-language: zh-cn
+language: zh
 timezone:
 
 # URL
@@ -70,5 +70,5 @@ theme: landscape
 deploy:
   type: git
   repo: https://github.com/wshudong/blog.git
-  branch: [branch]
-  message: [message]
+  branch: gh-pages
+  message: suecss
