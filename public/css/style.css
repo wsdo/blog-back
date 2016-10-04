@@ -450,7 +450,6 @@ a {
     top: auto; /*In order to cover style in article.styl*/
     bottom: 10px;
     padding: 0.2em 0.4em;
-    -webkit-border-radius: 6px;
     border-radius: 6px;
     border-style: outset;
     background: rgba(255,255,255,0.7);
@@ -478,7 +477,6 @@ a {
     margin-left: 0;
     padding: 10px;
     padding-left: 0;
-    -webkit-border-radius: 2.8%;
     border-radius: 2.8%;
     background: none;
     font-size: 1em;
@@ -489,7 +487,6 @@ a {
     padding: 0.3em;
     color: #fff;
     background: #d3d3d3;
-    -webkit-border-radius: 3px;
     border-radius: 3px;
   }
   #container .toc-article .toc {
@@ -498,7 +495,6 @@ a {
   #container .toc-article ol {
     margin: 0;
     padding: 0.5em;
-    -webkit-border-radius: 5px;
     border-radius: 5px;
     background: rgba(255,255,255,0.85);
   }
@@ -526,7 +522,6 @@ a {
     top: auto;
     bottom: 10px;
     padding: 0.2em 0.4em;
-    -webkit-border-radius: 6px;
     border-radius: 6px;
     border-style: outset;
     opacity: 0.9;
@@ -576,7 +571,6 @@ a {
   text-align: center;
   display: block;
   border: 5px solid #fff;
-  -webkit-border-radius: 50%;
   border-radius: 50%;
   width: 128px;
   height: 128px;
@@ -592,7 +586,6 @@ a {
 #header .profilepic img {
   width: 100%;
   height: 100%;
-  -webkit-border-radius: 50%;
   border-radius: 50%;
   -webkit-animation-duration: 0.4s;
   -moz-animation-duration: 0.4s;
@@ -740,7 +733,6 @@ a {
 #header .switch-part3 .switch-friends-link {
   display: inline-block;
   margin-right: 9px;
-  -webkit-border-radius: 3px;
   border-radius: 3px;
   padding: 5px;
 }
@@ -761,7 +753,6 @@ a {
 #header .header-nav .social a {
   width: 37px;
   height: 37px;
-  -webkit-border-radius: 50%;
   border-radius: 50%;
   margin: 0 2px 6px;
   vertical-align: middle;
@@ -1040,7 +1031,6 @@ a {
   top: 30px;
   padding: 1px;
   border: none;
-  -webkit-border-radius: 5px;
   border-radius: 5px;
   cursor: pointer;
   outline: none;
@@ -1499,7 +1489,6 @@ color
   margin-right: 0.5em;
   margin-bottom: 0.11em;
   border: 1px solid #d3d3d3;
-  -webkit-border-radius: 50%;
   border-radius: 50%;
   background: #d3d3d3;
 }
@@ -1595,7 +1584,6 @@ color
   padding: 2px 4px;
   -webkit-border-radius: 2px;
   -moz-border-radius: 2px;
-  -webkit-border-radius: 2px;
   border-radius: 2px;
   background: #88acdb;
   color: #fff;
@@ -1712,7 +1700,6 @@ li:hover {
   left: 0;
   margin-left: 0;
   padding: 6px 10px 10px 50px;
-  -webkit-border-radius: 2.8%;
   border-radius: 2.8%;
   overflow: auto;
 }
@@ -2139,7 +2126,6 @@ aside.comment-bar:active {
   box-shadow: none;
 }
 .article-entry .highlight {
-  -webkit-border-radius: 2px;
   border-radius: 2px;
   max-height: 50em;
   margin-top: 0.5em;
@@ -2236,7 +2222,6 @@ aside.comment-bar:active {
   color: #808080;
   background: rgba(248,237,223,0.5);
   padding: 0.05em 0.3em;
-  -webkit-border-radius: 3px;
   border-radius: 3px;
   -webkit-box-shadow: 1px 1px 1px rgba(0,0,0,0.08);
   box-shadow: 1px 1px 1px rgba(0,0,0,0.08);
@@ -2383,7 +2368,6 @@ pre .javascript .function {
   background: #4d4d4d;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
-  -webkit-border-radius: 50%;
   border-radius: 50%;
   display: inline-block;
   color: #fff;
@@ -2536,7 +2520,6 @@ pre .javascript .function {
   color: #fff;
   width: 80px;
   text-align: center;
-  -webkit-border-radius: 3px;
   border-radius: 3px;
   opacity: 0.8;
   position: absolute;
@@ -2557,7 +2540,6 @@ pre .javascript .function {
   height: 32px;
   width: 32px;
   background: #cecece;
-  -webkit-border-radius: 100px;
   border-radius: 100px;
   position: relative;
   overflow: hidden;
@@ -2601,7 +2583,6 @@ pre .javascript .function {
   position: absolute;
   -webkit-border-radius: 60px;
   -moz-border-radius: 60px;
-  -webkit-border-radius: 60px;
   border-radius: 60px;
   left: 10px;
   top: 8px;
@@ -2616,7 +2597,6 @@ pre .javascript .function {
   left: 4px;
   -webkit-border-radius: 60px;
   -moz-border-radius: 60px;
-  -webkit-border-radius: 60px;
   border-radius: 60px;
 }
 .switch-btn .icon-ctn .ribbon {
@@ -2642,7 +2622,6 @@ pre .javascript .function {
   border-style: solid;
   border-width: 0px 3px 3px 3px;
   border-color: #333;
-  -webkit-border-radius: 0 0 50px 50px;
   border-radius: 0 0 50px 50px;
   position: absolute;
   top: 16px;
@@ -2666,7 +2645,6 @@ pre .javascript .function {
   border-style: solid;
   border-width: 3px 0 0 3px;
   border-color: #333;
-  -webkit-border-radius: 50px 0 0 0;
   border-radius: 50px 0 0 0;
   position: absolute;
   left: -3px;
@@ -2678,7 +2656,6 @@ pre .javascript .function {
   border-style: solid;
   border-width: 3px 3px 0 3px;
   border-color: #333;
-  -webkit-border-radius: 50px 50px 0 0;
   border-radius: 50px 50px 0 0;
   position: absolute;
   top: 8px;
@@ -2702,7 +2679,6 @@ pre .javascript .function {
   border-style: solid;
   border-width: 0 3px 3px 0;
   border-color: #333;
-  -webkit-border-radius: 0 0 50px 0;
   border-radius: 0 0 50px 0;
   position: absolute;
   left: 5px;
@@ -2712,7 +2688,6 @@ pre .javascript .function {
   width: 12px;
   height: 14px;
   background: #333;
-  -webkit-border-radius: 5px 5px 0 0;
   border-radius: 5px 5px 0 0;
   margin-left: 10px;
   margin-top: 2px;
@@ -2758,7 +2733,6 @@ pre .javascript .function {
   float: left;
   padding: 0 5px 0 10px;
   position: relative;
-  -webkit-border-radius: 0 5px 5px 0;
   border-radius: 0 5px 5px 0;
   margin: 5px 9px 5px 8px;
   opacity: 0.75;
@@ -2832,7 +2806,6 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   background-color: #fff;
-  -webkit-border-radius: 4px;
   border-radius: 4px;
   -webkit-box-shadow: 0 0 0 1px rgba(0,0,0,0.3);
   box-shadow: 0 0 0 1px rgba(0,0,0,0.3);
@@ -2888,12 +2861,10 @@ pre .javascript .function {
   display: block;
 }
 ::-webkit-scrollbar-thumb {
-  -webkit-border-radius: 8px;
   border-radius: 8px;
   background-color: rgba(0,0,0,0.2);
 }
 ::-webkit-scrollbar-thumb:hover {
-  -webkit-border-radius: 8px;
   border-radius: 8px;
   background-color: rgba(0,0,0,0.5);
 }
@@ -2974,7 +2945,6 @@ pre .javascript .function {
   width: 6px;
   height: 6px;
   border: 1px solid #999;
-  -webkit-border-radius: 10px;
   -webkit-border-radius: 10px;
   border-radius: 10px;
   background: #aaa;
