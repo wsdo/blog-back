@@ -15,15 +15,22 @@
 
 
 
-<meta name="description" content="stark">
-<meta property="og:type" content="website">
-<meta property="og:title" content="itnote">
-<meta property="og:url" content="http://blog.shudong.wang/categories/domain/index.html">
+<meta name="description" content="模块微信push
+表设计
+12345678910111213141516171819202122232425262728293031323334CREATE TABLE `wechat_push` (  `id` int(11) unsigned NOT NULL AUTO_INCREMENT,  `status` int(3) NOT NULL DEFAULT &amp;apos;10&amp;apos; CO">
+<meta property="og:type" content="article">
+<meta property="og:title" content="微信push">
+<meta property="og:url" content="http://blog.shudong.wang/2016/10/31/微信push/index.html">
 <meta property="og:site_name" content="itnote">
-<meta property="og:description" content="stark">
+<meta property="og:description" content="模块微信push
+表设计
+12345678910111213141516171819202122232425262728293031323334CREATE TABLE `wechat_push` (  `id` int(11) unsigned NOT NULL AUTO_INCREMENT,  `status` int(3) NOT NULL DEFAULT &amp;apos;10&amp;apos; CO">
+<meta property="og:updated_time" content="2016-10-31T03:56:19.000Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="itnote">
-<meta name="twitter:description" content="stark">
+<meta name="twitter:title" content="微信push">
+<meta name="twitter:description" content="模块微信push
+表设计
+12345678910111213141516171819202122232425262728293031323334CREATE TABLE `wechat_push` (  `id` int(11) unsigned NOT NULL AUTO_INCREMENT,  `status` int(3) NOT NULL DEFAULT &amp;apos;10&amp;apos; CO">
 
 <link rel="apple-touch-icon" href= "/apple-touch-icon.png">
 
@@ -55,7 +62,7 @@
 <link href="//cdn.bootcss.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
 
 
-<title>Category: domain | itnote</title>
+<title>微信push | itnote</title>
 
 <script src="//cdn.bootcss.com/jquery/2.2.4/jquery.min.js"></script>
 <script src="//cdn.bootcss.com/clipboard.js/1.5.10/clipboard.min.js"></script>
@@ -65,10 +72,10 @@
         fancybox: true,
         animate: true,
         isHome: false,
-        isPost: false,
+        isPost: true,
         isArchive: false,
         isTag: false,
-        isCategory: true,
+        isCategory: false,
         fancybox_js: "//cdn.bootcss.com/fancybox/2.1.5/jquery.fancybox.min.js",
         scrollreveal: "//cdn.bootcss.com/scrollReveal.js/3.1.4/scrollreveal.min.js",
         search: undefined
@@ -259,60 +266,162 @@
     </div>
     <link class="menu-list" tags="标签" friends="友情链接" about="关于我"/>
 </nav>
-      <div class="body-wrap">
+      <div class="body-wrap"><article id="post-微信push" class="article article-type-post" itemscope itemprop="blogPost">
   
-  
-    
-    
-      
-      
-      <section class="archives-wrap">
-        <div class="archive-year-wrap">
-          <a href="/archives/2016" class="archive-year">2016</a>
-        </div>
-        <div class="archives">
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-          <div class="article-meta">
-              <a href="/2016/07/09/about-domain-name/" class="archive-article-date">
-      <time datetime="2016-07-09T14:28:27.000Z" itemprop="datePublished">07-09</time>
+    <div class="article-meta">
+      <a href="/2016/10/31/微信push/" class="article-date">
+      <time datetime="2016-10-31T03:53:08.000Z" itemprop="datePublished">2016-10-31</time>
 </a>
 
 
-        </div>
-         
+    </div>
   
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2016/07/09/about-domain-name/">about domain name</a>
+  <div class="article-inner">
+    
+      <input type="hidden" class="isFancy" />
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 class="article-title" itemprop="name">
+      微信push
     </h1>
   
 
-        <div class="article-info info-on-archive">
-          
-    <div class="article-category tagcloud">
-    <a class="article-category-link" href="/categories/domain/">domain</a>
-    </div>
+      </header>
+      
+      <div class="article-info article-info-post">
+        
 
-
-          
-    <div class="article-tag tagcloud">
-        <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/domain/">domain</a></li></ul>
-    </div>
-
-        </div>
+        
         <div class="clearfix"></div>
-    </header>
+      </div>
+      
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+          
+        <p>模块微信push</p>
+<p>表设计</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div><div class="line">31</div><div class="line">32</div><div class="line">33</div><div class="line">34</div></pre></td><td class="code"><pre><div class="line">CREATE TABLE `wechat_push` (</div><div class="line">  `id` int(11) unsigned NOT NULL AUTO_INCREMENT,</div><div class="line">  `status` int(3) NOT NULL DEFAULT &apos;10&apos; COMMENT &apos;10 默认值 未加入队列; 20加入队列成功；25加入队列失败；30发送成功；35发送失败;&apos;,</div><div class="line">  `from_id` int(11) DEFAULT NULL,</div><div class="line">  `from_type` varchar(255) DEFAULT NULL COMMENT &apos;来源类型&apos;,</div><div class="line">  `user_id` int(11) unsigned NOT NULL DEFAULT &apos;0&apos; COMMENT &apos;用户ID&apos;,</div><div class="line">  `data` text NOT NULL COMMENT &apos;通知内容 json 格式&apos;,</div><div class="line">  `join_queue_at` int(11) unsigned NOT NULL DEFAULT &apos;0&apos; COMMENT &apos;加入队列的时间&apos;,</div><div class="line">  `sended_at` int(11) unsigned NOT NULL DEFAULT &apos;0&apos; COMMENT &apos;通知发送时间&apos;,</div><div class="line">  `note` varchar(100) DEFAULT &apos;&apos; COMMENT &apos;通知类型名称，例如：退款通知，活动取消通知&apos;,</div><div class="line">  `openid` varchar(40) NOT NULL DEFAULT &apos;0&apos; COMMENT &apos;接受通知的用户openid&apos;,</div><div class="line">  `url` varchar(100) DEFAULT NULL COMMENT &apos;提醒用户点击的url地址&apos;,</div><div class="line">  `template_id` int(11) unsigned NOT NULL DEFAULT &apos;0&apos; COMMENT &apos;模板ID&apos;,</div><div class="line">  `timing` int(11) unsigned NOT NULL DEFAULT &apos;0&apos; COMMENT &apos;定时&apos;,</div><div class="line">  `created_at` int(11) NOT NULL DEFAULT &apos;0&apos; COMMENT &apos;创建时间&apos;,</div><div class="line">  `callback_id` int(11) DEFAULT &apos;0&apos; COMMENT &apos;微信回调id&apos;,</div><div class="line">  `callback_msg` varchar(255) DEFAULT NULL COMMENT &apos;通知发送后返回的消息是成功或失败的原因&apos;,</div><div class="line">  `callback_status` tinyint(3) DEFAULT NULL COMMENT &apos;通知发送后的状态，10 成功 20 失败&apos;,</div><div class="line">  PRIMARY KEY (`id`)</div><div class="line">) ENGINE=InnoDB AUTO_INCREMENT=12 DEFAULT CHARSET=utf8mb4 COMMENT=&apos;通知表&apos;;</div><div class="line"></div><div class="line"></div><div class="line">CREATE TABLE `push_log` (</div><div class="line">  `id` int(10) unsigned NOT NULL AUTO_INCREMENT,</div><div class="line">  `note` varchar(100) NOT NULL,</div><div class="line">  `openid` varchar(40) NOT NULL,</div><div class="line">  `user_id` int(11) NOT NULL,</div><div class="line">  `from_id` int(10) DEFAULT NULL,</div><div class="line">  `from_type` varchar(30) DEFAULT NULL,</div><div class="line">  `template_id` varchar(50) NOT NULL,</div><div class="line">  `create_time` int(20) DEFAULT NULL,</div><div class="line">  `error_log` text,</div><div class="line">  PRIMARY KEY (`id`)</div><div class="line">) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;</div></pre></td></tr></table></figure>
+
+      
+    </div>
+    
   </div>
+  
+    
+    <div class="copyright">
+        <p><span>本文标题:</span><a href="/2016/10/31/微信push/">微信push</a></p>
+        <p><span>文章作者:</span><a href="/" title="回到主页">stark wang</a></p>
+        <p><span>发布时间:</span>2016-10-31, 11:53:08</p>
+        <p><span>最后更新:</span>2016-10-31, 11:56:19</p>
+        <p>
+            <span>原始链接:</span><a class="post-url" href="/2016/10/31/微信push/" title="微信push">http://blog.shudong.wang/2016/10/31/微信push/</a>
+            <span class="copy-path" data-clipboard-text="原文: http://blog.shudong.wang/2016/10/31/微信push/　　作者: stark wang" title="点击复制文章链接"><i class="fa fa-clipboard"></i></span>
+            <script> var clipboard = new Clipboard('.copy-path'); </script>
+        </p>
+        <p>
+            <span>许可协议:</span><i class="fa fa-creative-commons"></i> <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/" title="CC BY-NC-SA 4.0 International" target = "_blank">"署名-非商用-相同方式共享 4.0"</a> 转载请保留原文链接及作者。
+        </p>
+    </div>
+
+
+
+    <nav id="article-nav">
+        
+        
+            <div id="article-nav-older" class="article-nav-title">
+                <a href="/2016/09/27/mweb hello-1/">
+                    
+                </a>
+            </div>
+        
+    </nav>
+
+  
 </article>
-  
-  
-    </div></section>
-  
+
+    <div id="toc" class="toc-article">
+        <strong class="toc-title">文章目录</strong>
+        
+            
+        
+    </div>
+    <style>
+        .left-col .switch-btn,
+        .left-col .switch-area {
+            display: none;
+        }
+        .toc-level-3 i,
+        .toc-level-3 ol {
+            display: none !important;
+        }
+    </style>
+
+    <input type="button" id="tocButton" value="隐藏目录"  title="点击按钮隐藏或者显示文章目录">
+
+    <script>
+        yiliaConfig.toc = ["隐藏目录", "显示目录", !!"false"];
+    </script>
+
+
+
+    
+<div class="share">
+    
+        <div class="bdsharebuttonbox">
+            <a href="#" class="fa fa-twitter bds_twi" data-cmd="twi" title="分享到推特"></a>
+            <a href="#" class="fa fa-weibo bds_tsina" data-cmd="tsina" title="分享到新浪微博"></a>
+            <a href="#" class="fa fa-qq bds_sqq" data-cmd="sqq" title="分享给 QQ 好友"></a>
+            <a href="#" class="fa fa-files-o bds_copy" data-cmd="copy" title="复制网址"></a>
+            <a href="#" class="fa fa fa-envelope-o bds_mail" data-cmd="mail" title="通过邮件分享"></a>
+            <a href="#" class="fa fa-weixin bds_weixin" data-cmd="weixin" title="生成文章二维码"></a>
+            <a href="#" class="fa fa-share-alt bds_more" data-cmd="more"></i></a>
+        </div>
+        <script>
+            window._bd_share_config={
+                "common":{"bdSnsKey":{},"bdText":"微信push　| itnote　","bdMini":"2","bdMiniList":false,"bdPic":"","bdStyle":"0","bdSize":"24"},"share":{}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];
+        </script>
+    
+
+    
+</div>
+
+
+
+
+
+
 
     
 
+
+
+
+    <div class="scroll" id="post-nav-button">
+        
+            <a href="/" title="回到主页"><i class="fa fa-home"></i></a>
+        
+
+        <a title="文章列表"><i class="fa fa-bars"></i><i class="fa fa-times"></i></a>
+
+        
+            <a href="/2016/09/27/mweb hello-1/" title="下一篇: ">
+                <i class="fa fa-angle-right"></i>
+            </a>
+        
+    </div>
+
+    <ul class="post-list"><li class="post-list-item"><a class="post-list-link" href="/2016/10/31/微信push/">微信push</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/09/27/mweb hello-1/">mweb hello-1</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/07/10/react-native/">react native</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/07/09/防辐射眼镜/">防辐射眼镜</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/07/09/about-domain-name/">about domain name</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/07/08/hexo for the Atom Edior/">hexo for the Atom Edior</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/07/08/git page/">git page</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/07/08/hello-world-1/">hello world</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/07/08/mweb hello/">hello world</a></li></ul>
+
+
+
+
+    <script>
+        
+    </script>
 </div>
       <footer id="footer">
     <div class="outer">
